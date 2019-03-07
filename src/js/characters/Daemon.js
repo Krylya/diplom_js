@@ -1,7 +1,7 @@
 import Character from '../Character';
 
 class Daemon extends Character {
-	constructor() {
+	constructor(level) {
 		this.attack = 10;
         this.defence = 40;
         this.steps = 1;

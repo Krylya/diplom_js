@@ -9,5 +9,6 @@ export default class Character {
     this.steps = 0;  // дальность хода персонажа
     this.attackSteps = 0; // радиус атаки
     // TODO: throw error if user use "new Character()"
+    if (new.target.name === 'Character') throw "error if user use new Character()";
   }
 }

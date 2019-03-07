@@ -1,7 +1,7 @@
 import Character from '../Character';
 
 class Vampire extends Character {
-	constructor() {
+	constructor(level) {
 		this.attack = 40;
         this.defence = 10;
         this.steps = 2;
